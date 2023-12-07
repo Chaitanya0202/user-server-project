@@ -18,7 +18,7 @@ import com.user.user_full_stack_project.dto.User;
 import com.user.user_full_stack_project.service.UserService;
 
 @RestController
-@CrossOrigin("http://localhost:3000/")
+@CrossOrigin("https://user-client-project.vercel.app/")
 //@RequestMapping("/user")
 public class UserController {
 	@Autowired
